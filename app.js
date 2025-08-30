@@ -5,7 +5,7 @@ const path = require('path')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 require('dotenv').config()
-const usercred = require('./views/models/Signup')
+const usercred = require('./models/Signup')
 
 
 app.set("view engine", "ejs")
