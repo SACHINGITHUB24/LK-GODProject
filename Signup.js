@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+require('dotenv').config();
 
-mongoose.connect('mongodb+srv://QUICK:LINKDATAPASS@linksdata.jaczn.mongodb.net/?retryWrites=true&w=majority&appName=LinksData')
+mongoose.connect(process.env.MONGODB)
 
 const userschema = new mongoose.Schema({
     name: { type: String, required: true },
