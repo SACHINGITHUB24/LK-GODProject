@@ -12,3 +12,6 @@ const userschema = new mongoose.Schema({
 })
 
 module.exports = mongoose.model("UserCred", userschema)
+
+
+//RailWay URL:  mongodb://mongo:qBKIIHBGkPjibulivWmEDqlvthByaIze@tramway.proxy.rlwy.net:30431

@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
-},
+    "start": "node app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.1",
